@@ -239,7 +239,7 @@ exponentials in general if we use the rule
 
 $$
 \begin{cases}
-  {b}^{n} = {({b}^{n/2})}^{2} \quad \text{if} n  \text{ is even}\\
-  {b}^{n} = b\dot{b}^{n-1} \quad \text{if} n \text{ is odd}
+  {b}^{n} = {({b}^{n/2})}^{2} \quad \text{if } n  \text{ is even}\\
+  {b}^{n} = b\cdot{b}^{n-1} \quad \text{if } n \text{ is odd}
 \end{cases}
 $$
