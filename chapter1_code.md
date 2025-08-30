@@ -61,6 +61,7 @@
 ```
 
 ### 1.1.6
+
 ```scheme
 #lang Racket
 
@@ -74,6 +75,7 @@
 ```
 
 ### 1.1.7
+
 ```scheme
 #lang Racket
 
@@ -107,7 +109,7 @@
 With `(require racket/trace)`, we can trace the sequence of
 approximations.
 
-```
+```scheme
 #lang Racket
 (require racket/trace)
 
@@ -147,6 +149,7 @@ approximations.
 ```
 
 ### 1.2.1
+
 ```scheme
 #lang Racket
 
@@ -174,7 +177,8 @@ approximations.
   ```
 
 ### 1.2.2
-```
+
+```scheme
 #lang Racket
 
 (define (fib n)
@@ -507,7 +511,7 @@ a fixed point of the function $y \mapsto x/y^{2}$, so we can
 immediately generalize our square-root procedure to one that extracts
 cube root.
 
-```
+```scheme
 #lang Racket
 
 (define (average-damp f)
